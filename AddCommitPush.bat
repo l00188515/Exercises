@@ -19,7 +19,7 @@ echo 'Enter the commit message:'
 set /p CommitMessage=What is your commit message?
 echo Your commit message is %CommitMessage%
 set $CommitMessage=%CommitMessage%
-git commit -m "$CommitMessage"
+git commit -m "CommitMessage"
 git status
 
 echo '**************************************************'
